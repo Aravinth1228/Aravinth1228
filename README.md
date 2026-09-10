@@ -1,174 +1,186 @@
 <div align="center">
 
+<img src="./assets/blockchain-3d.svg" alt="Aravinthan Selvam — 3D Blockchain Developer" width="100%"/>
+
 # ⛓️ ARAVINTHAN SELVAM
-### Blockchain Engineer • Web3 Developer • Smart Contract Security
+### 🧊 Blockchain Developer • Web3 Engineer • Smart Contract Security
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050816,50:111827,100:0b7285&text=BUILDING%20THE%20DECENTRALIZED%20FUTURE&fontSize=28&fontColor=ffffff&fontAlignY=40&animation=fadeIn" width="100%"/>
+**Building decentralized systems from Smart Contract → EVM → Network → DApp**
 
-<p>
-  <a href="https://github.com/Aravinth1228"><img src="https://img.shields.io/badge/GitHub-Aravinth1228-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
+[![GitHub](https://img.shields.io/badge/GitHub-Aravinth1228-181717?style=for-the-badge&logo=github)](https://github.com/Aravinth1228)
+[![Solidity](https://img.shields.io/badge/Solidity-E6E6E6?style=for-the-badge&logo=solidity&logoColor=black)](https://soliditylang.org/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)](https://ethereum.org/)
+[![Foundry](https://img.shields.io/badge/Foundry-FFB000?style=for-the-badge&logo=ethereum&logoColor=black)](https://book.getfoundry.sh/)
 
 </div>
 
-## ◈ Who I Am
+## 🌌 ABOUT ME
 
-I build blockchain systems from **smart contracts to chain infrastructure**.
-
-My focus is on designing, developing, testing and securing **EVM-compatible Web3 applications**, with a strong interest in **RWA, DeFi, tokenization, Layer 1 / Layer 2 architecture and smart-contract security**.
+I'm focused on **Blockchain & Web3 engineering**, with an end-to-end mindset: architecture, smart contracts, testing, security, deployment and blockchain infrastructure.
 
 ```text
-┌────────────────────────────────────────────────────────────────────┐
-│                         BLOCKCHAIN ENGINEER                        │
-├──────────────────────┬──────────────────────┬──────────────────────┤
-│ Smart Contracts      │ Web3 / DApps         │ Blockchain Infra     │
-│ Solidity             │ Ethers.js            │ Geth                 │
-│ OpenZeppelin         │ Viem                 │ Hyperledger Besu     │
-│ ERC Standards        │ Wallet Integration   │ RPC / Nodes          │
-│ Upgradeable Proxies  │ Frontend Integration │ Explorers            │
-└──────────────────────┴──────────────────────┴──────────────────────┘
+              WEB3 / BLOCKCHAIN ENGINEERING
+                         │
+       ┌─────────────────┼─────────────────┐
+       ▼                 ▼                 ▼
+  SMART CONTRACT       EVM            BLOCKCHAIN
+  Solidity             Gas             Nodes / RPC
+  OpenZeppelin         ABI             Geth / Besu
+  ERC Standards        Events          Explorers
+       │                 │                 │
+       └─────────────────┼─────────────────┘
+                         ▼
+                 DAPP / PROTOCOL
+                         │
+                 Security • Scale
 ```
 
-## 🧬 3D Blockchain Mindset
+## 🧠 CORE BLOCKCHAIN SKILLS
 
-```text
-                         ┌───────────────┐
-                         │   WEB3 USER   │
-                         └───────┬───────┘
-                                 │
-                         Wallet / Signature
-                                 │
-                         ┌───────▼───────┐
-                         │      DAPP     │
-                         │ React / Next  │
-                         └───────┬───────┘
-                                 │
-                         RPC / Ethers / Viem
-                                 │
-                   ┌─────────────▼─────────────┐
-                   │      SMART CONTRACTS      │
-                   │ Solidity • OpenZeppelin  │
-                   └─────────────┬─────────────┘
-                                 │
-                         EVM Execution Layer
-                                 │
-             ┌───────────────────▼───────────────────┐
-             │         BLOCKCHAIN NETWORK            │
-             │ Ethereum • BNB • Base • Polygon      │
-             └───────────────────┬───────────────────┘
-                                 │
-                    ┌────────────▼────────────┐
-                    │ Nodes • Validators • RPC │
-                    │ Geth • Besu • Explorer   │
-                    └──────────────────────────┘
-```
-
-## ⚙️ Blockchain Engineering Stack
-
-### ⛓️ Networks & Protocols
-
-![Ethereum](https://img.shields.io/badge/Ethereum-111827?style=for-the-badge&logo=ethereum&logoColor=627EEA)
-![BNB Chain](https://img.shields.io/badge/BNB%20Chain-111827?style=for-the-badge&logo=binance&logoColor=F3BA2F)
-![Polygon](https://img.shields.io/badge/Polygon-111827?style=for-the-badge&logo=polygon&logoColor=8247E5)
-![Base](https://img.shields.io/badge/Base-111827?style=for-the-badge&logo=coinbase&logoColor=4DABF7)
-![Geth](https://img.shields.io/badge/Geth-111827?style=for-the-badge&logo=ethereum&logoColor=white)
-![Besu](https://img.shields.io/badge/Hyperledger%20Besu-111827?style=for-the-badge&logo=hyperledger&logoColor=white)
-
-### 🧠 Smart Contract Engineering
-
-![Solidity](https://img.shields.io/badge/Solidity-111827?style=for-the-badge&logo=solidity&logoColor=white)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-111827?style=for-the-badge&logo=openzeppelin&logoColor=49A6FF)
-![ERC20](https://img.shields.io/badge/ERC--20-111827?style=for-the-badge)
-![ERC721](https://img.shields.io/badge/ERC--721-111827?style=for-the-badge)
-![ERC1155](https://img.shields.io/badge/ERC--1155-111827?style=for-the-badge)
-
-**Patterns:** Access Control • Ownable • Pausable • Reentrancy Guard • Proxy / Upgradeability • Role-Based Permissions • Tokenization
-
-### 🧪 Testing & Security
-
-![Foundry](https://img.shields.io/badge/Foundry-111827?style=for-the-badge&logo=ethereum&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-111827?style=for-the-badge&logo=hardhat&logoColor=F7DF1E)
-![Slither](https://img.shields.io/badge/Slither-111827?style=for-the-badge)
-![Fuzzing](https://img.shields.io/badge/Fuzz%20Testing-111827?style=for-the-badge)
-
-**Security focus:** Reentrancy • Access Control • Authorization • Arithmetic / Precision • Oracle Risks • Signature Validation • Business Logic • Upgradeability Risks
-
-### 🌐 Web3 Integration
-
-![Ethers.js](https://img.shields.io/badge/Ethers.js-111827?style=for-the-badge&logo=ethereum&logoColor=white)
-![Viem](https://img.shields.io/badge/Viem-111827?style=for-the-badge)
-![MetaMask](https://img.shields.io/badge/MetaMask-111827?style=for-the-badge&logo=metamask&logoColor=E2761B)
-![WalletConnect](https://img.shields.io/badge/WalletConnect-111827?style=for-the-badge&logo=walletconnect&logoColor=3B99FC)
-
-### 🏗️ Infrastructure & Developer Tools
-
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-111827?style=for-the-badge&logo=github-actions&logoColor=2088FF)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
-![IPFS](https://img.shields.io/badge/IPFS-111827?style=for-the-badge&logo=ipfs&logoColor=65C2CB)
-
-## 🚀 What I'm Building
-
-| Area | Focus |
+| 🧩 Domain | ⚡ Technologies / Concepts |
 |---|---|
-| 🏦 **RWA** | Real-world asset tokenization and on-chain ownership |
-| 💰 **DeFi** | Staking, token systems, presales and protocol logic |
-| 🔐 **Security** | Smart-contract analysis, testing and automated auditing |
-| 🧱 **L1 / L2** | Nodes, RPC, chain configuration and network architecture |
-| 🌉 **Interoperability** | Cross-chain concepts, bridges and messaging |
-| 🤖 **AI × Web3** | AI-assisted smart-contract analysis and developer tooling |
+| **Smart Contracts** | Solidity • OpenZeppelin • ERC-20 • ERC-721 • ERC-1155 • Access Control • Upgradeable Proxies |
+| **EVM** | EVM execution • ABI • Gas • Events • Logs • Transactions • Contract Storage |
+| **Networks** | Ethereum • BNB Chain • Polygon • Base • Sepolia • EVM-compatible chains |
+| **L1 / L2** | Layer 1 • Layer 2 • Bridges • RPC • Nodes • Cross-chain concepts |
+| **RWA / DeFi** | Tokenization • Real Estate • Staking • Presale • DeFi protocol logic |
+| **Security** | Slither • Foundry tests • Fuzzing • Reentrancy • Access Control • Business Logic |
 
-## 🔥 Featured Blockchain Work
+## 🛠️ 3D BLOCKCHAIN TOOLKIT
 
-### 🏠 RWA Real Estate
-Tokenization-focused real-estate concept exploring blockchain-based ownership and investment.
-
-### 🛡️ SafeHaven with Blockchain
-A blockchain-backed application combining Web3 architecture with a real-world safety use case.
-
-### 🔗 Layer 1 → Layer 2
-Exploring how L1 networks, L2 systems, bridging and transaction flow connect across blockchain architecture.
-
-### 🧪 Smart Contract Experiments
-ERC-20 / BEP-20 token contracts, transfer mechanics, voting systems, Solidity learning projects and Ethers.js integrations.
-
-## 📊 GitHub Signals
+> A visual-first stack for building blockchain experiences, dashboards and Web3 interfaces.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Aravinth1228&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=22C55E&text_color=C9D1D9" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aravinth1228&hide_border=true&background=00000000&ring=58A6FF&fire=F97316&currStreakLabel=58A6FF" height="165"/>
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-61DAFB?style=for-the-badge&logo=react&logoColor=20232A)
+![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
+![Spline](https://img.shields.io/badge/Spline-5B21B6?style=for-the-badge)
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Foundry](https://img.shields.io/badge/Foundry-FFB000?style=for-the-badge&logo=ethereum&logoColor=black)
+![Hardhat](https://img.shields.io/badge/Hardhat-F7DF1E?style=for-the-badge&logo=hardhat&logoColor=black)
+![Slither](https://img.shields.io/badge/Slither-7C3AED?style=for-the-badge)
 
 </div>
 
-## 🧭 Current Learning Path
+### 🔮 Visual Web3 Flow
 
 ```text
-EVM Internals
-    ↓
-Smart Contract Architecture
-    ↓
-Testing + Fuzzing + Static Analysis
-    ↓
-DeFi / RWA Protocol Design
-    ↓
-L1 / L2 + Node Infrastructure
-    ↓
-AI-Powered Smart Contract Security
+3D Interface
+     ↓
+Three.js / React Three Fiber
+     ↓
+Wallet ── MetaMask / WalletConnect
+     ↓
+Viem / Ethers.js
+     ↓
+Smart Contract
+     ↓
+EVM
+     ↓
+RPC / Node
+     ↓
+Ethereum • BNB • Polygon • Base
 ```
 
-## 🧩 Engineering Philosophy
-
-> **Don't just deploy contracts. Understand the chain underneath them.**
-
-I care about the complete lifecycle: **design → code → test → audit → deploy → monitor → improve**.
+## 🔐 SMART CONTRACT SECURITY
 
 <div align="center">
 
-### ⛓️ Build on-chain. Think in systems. Secure by design. ⛓️
+![Slither](https://img.shields.io/badge/STATIC%20ANALYSIS-Slither-8B5CF6?style=for-the-badge)
+![Foundry](https://img.shields.io/badge/FUZZING-Foundry-FFB000?style=for-the-badge)
+![Testing](https://img.shields.io/badge/TESTING-Unit%20%7C%20Integration%20%7C%20Fuzzing-22C55E?style=for-the-badge)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0b7285,50:111827,100:050816" width="100%"/>
+</div>
+
+**Security areas:**
+
+`Reentrancy` · `Access Control` · `Authorization` · `Oracle Risk` · `Signature Validation` · `Precision` · `Business Logic` · `Upgradeable Contracts` · `Denial of Service`
+
+## 🌍 BLOCKCHAIN INFRASTRUCTURE
+
+![Geth](https://img.shields.io/badge/Geth-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Hyperledger Besu](https://img.shields.io/badge/Hyperledger%20Besu-2F3136?style=for-the-badge&logo=hyperledger&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
+![The Graph](https://img.shields.io/badge/The%20Graph-6747ED?style=for-the-badge&logo=thegraph&logoColor=white)
+
+**Infrastructure concepts:** Nodes • RPC endpoints • Genesis configuration • Peer-to-peer networking • Validators • Block explorers • Indexing • Dockerized deployments
+
+## 🌐 WEB3 DEVELOPMENT
+
+![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white)
+![Viem](https://img.shields.io/badge/Viem-111827?style=for-the-badge)
+![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?style=for-the-badge&logo=metamask&logoColor=white)
+![WalletConnect](https://img.shields.io/badge/WalletConnect-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+## 🚀 WHAT I'M BUILDING
+
+### 🏦 RWA & Real Estate
+Tokenization, on-chain ownership, asset representation and blockchain-based investment concepts.
+
+### 💰 DeFi
+Staking, token systems, presale contracts, transfers and protocol-level business logic.
+
+### 🛡️ AI × Smart Contract Security
+Exploring **AI-assisted contract analysis and automated auditing**, combining static analysis, testing and LLM-based reasoning.
+
+### 🧱 Blockchain Infrastructure
+Exploring **Geth, Hyperledger Besu, RPC, explorers, L1/L2 architecture and private/EVM networks**.
+
+## 📦 FEATURED PROJECT AREAS
+
+| Project | Focus |
+|---|---|
+| 🏠 **RWA-Real-Estate** | Real-world asset tokenization |
+| ⛓️ **Blockchain-Project** | End-to-end blockchain implementation |
+| 🟡 **BEP-20-Transaction-System** | Token transfers and BSC concepts |
+| 🗳️ **Voting-system-using-Block-Chain** | Decentralized voting |
+| 🔗 **layer1-to-layer2** | L1 / L2 concepts and bridging |
+| 🧪 **ERC20-transferFrom-Blockchain** | ERC-20 contract interaction |
+
+## 🧭 ENGINEERING PATH
+
+```text
+Solidity
+   ↓
+Smart Contract Architecture
+   ↓
+Foundry + Hardhat
+   ↓
+Slither + Fuzz Testing
+   ↓
+DeFi / RWA Protocols
+   ↓
+EVM Internals
+   ↓
+Geth / Besu / RPC / Nodes
+   ↓
+L1 / L2 + Interoperability
+   ↓
+AI-Powered Smart Contract Auditing
+```
+
+## 📊 GITHUB
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Aravinth1228&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=A855F7&text_color=C9D1D9" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Aravinth1228&hide_border=true&background=00000000&ring=22D3EE&fire=F97316&currStreakLabel=A855F7" height="170"/>
+
+</div>
+
+## ⚡ CURRENT FOCUS
+
+`Smart Contracts` `Web3` `EVM` `RWA` `DeFi` `L1/L2` `Geth` `Besu` `Foundry` `Slither` `AI Security`
+
+<div align="center">
+
+### 💜 BUILD ON-CHAIN • THINK IN SYSTEMS • SECURE BY DESIGN 💙
+
+**Code Today → Decentralize Tomorrow → Build the Future 🚀**
 
 </div>
