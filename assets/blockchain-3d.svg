@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset=".45" stop-color="#17104d"/><stop offset="1" stop-color="#003b55"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5ff"/><stop offset="1" stop-color="#087cff"/></linearGradient>
+ <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff35d0"/><stop offset="1" stop-color="#6c2bff"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe259"/><stop offset="1" stop-color="#ff8a00"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#5ee7ff" stroke-opacity=".09"/></pattern>
+</defs>
+<rect width="1200" height="500" rx="28" fill="url(#bg)"/><rect width="1200" height="500" rx="28" fill="url(#grid)"/>
+<circle cx="920" cy="245" r="150" fill="#5a2dff" opacity=".16" filter="url(#soft)"/><circle cx="275" cy="320" r="110" fill="#00e5ff" opacity=".12" filter="url(#soft)"/>
+<ellipse cx="825" cy="245" rx="250" ry="92" fill="none" stroke="#00e5ff" stroke-opacity=".35" stroke-width="2" transform="rotate(-18 825 245)"/><ellipse cx="825" cy="245" rx="205" ry="145" fill="none" stroke="#ff35d0" stroke-opacity=".28" stroke-width="2" transform="rotate(28 825 245)"/>
+<text x="55" y="70" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="700">ARAVINTHAN SELVAM</text><text x="55" y="108" fill="#5ee7ff" font-family="Arial, sans-serif" font-size="38" font-weight="800">BLOCKCHAIN • WEB3 • SECURITY</text><text x="55" y="140" fill="#dbeafe" font-family="Arial, sans-serif" font-size="17">Smart Contracts  |  EVM  |  RWA  |  DeFi  |  L1 / L2  |  AI × Web3</text>
+<g stroke="#00e5ff" stroke-width="2" opacity=".5"><path d="M570 235 L690 190 L825 245 L960 185"/><path d="M690 190 L720 330 L825 245"/><path d="M825 245 L900 350 L1010 285"/><path d="M570 235 L720 330"/></g>
+<g filter="url(#glow)">
+<g transform="translate(515 205)"><polygon points="0,28 50,0 100,28 50,56" fill="url(#cyan)"/><polygon points="0,28 50,56 50,115 0,87" fill="#075e83"/><polygon points="100,28 50,56 50,115 100,87" fill="#1239a0"/><text x="50" y="36" text-anchor="middle" fill="white" font-size="18" font-weight="700">L2</text></g>
+<g transform="translate(675 150)"><polygon points="0,34 62,0 124,34 62,68" fill="url(#pink)"/><polygon points="0,34 62,68 62,145 0,111" fill="#5224a9"/><polygon points="124,34 62,68 62,145 124,111" fill="#241c78"/><text x="62" y="45" text-anchor="middle" fill="white" font-size="22" font-weight="800">RWA</text></g>
+<g transform="translate(825 215)"><polygon points="0,42 78,0 156,42 78,84" fill="url(#gold)"/><polygon points="0,42 78,84 78,178 0,136" fill="#9a4f00"/><polygon points="156,42 78,84 78,178 156,136" fill="#754300"/><text x="78" y="55" text-anchor="middle" fill="#241200" font-size="25" font-weight="900">ETH</text></g>
+<g transform="translate(1000 150)"><polygon points="0,28 48,0 96,28 48,56" fill="url(#cyan)"/><polygon points="0,28 48,56 48,112 0,84" fill="#075e83"/><polygon points="96,28 48,56 48,112 96,84" fill="#1239a0"/><text x="48" y="36" text-anchor="middle" fill="white" font-size="17" font-weight="700">DeFi</text></g></g>
+<g transform="translate(735 365)"><rect x="0" y="0" width="260" height="62" rx="16" fill="#0b1530" stroke="#5ee7ff" stroke-width="2"/><circle cx="28" cy="31" r="10" fill="#ff35d0"/><circle cx="232" cy="31" r="10" fill="#ffe259"/><text x="130" y="27" text-anchor="middle" fill="#fff" font-family="Arial" font-size="17" font-weight="700">SMART CONTRACT</text><text x="130" y="48" text-anchor="middle" fill="#5ee7ff" font-family="Arial" font-size="12">BUILD → TEST → AUDIT → DEPLOY</text></g>
+<rect x="55" y="185" width="405" height="210" rx="18" fill="#070d20" stroke="#6c2bff" stroke-width="2"/><circle cx="78" cy="209" r="5" fill="#ff5f56"/><circle cx="96" cy="209" r="5" fill="#ffbd2e"/><circle cx="114" cy="209" r="5" fill="#27c93f"/>
+<text x="78" y="245" fill="#5ee7ff" font-family="monospace" font-size="15">$ forge build</text><text x="78" y="273" fill="#c084fc" font-family="monospace" font-size="15">$ slither contracts/</text><text x="78" y="301" fill="#4ade80" font-family="monospace" font-size="15">✓ static analysis complete</text><text x="78" y="329" fill="#ffd166" font-family="monospace" font-size="15">$ anvil --fork &lt;RPC&gt;</text><text x="78" y="357" fill="#60a5fa" font-family="monospace" font-size="15">$ cast send &lt;contract&gt;</text><text x="78" y="383" fill="#f472b6" font-family="monospace" font-size="13">// decentralize responsibly.</text>
+<text x="1030" y="455" fill="#fff" font-family="Arial" font-size="15" font-weight="700">BUILD • LEARN • CREATE • REPEAT</text>
+</svg>
