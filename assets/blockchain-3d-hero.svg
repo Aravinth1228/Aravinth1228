@@ -1,32 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050816"/><stop offset=".5" stop-color="#11104b"/><stop offset="1" stop-color="#071d2f"/></linearGradient>
- <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5ff"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
- <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff2bd6"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd166"/><stop offset="1" stop-color="#ff7a00"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#38bdf8" stroke-opacity=".08"/></pattern>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06102b"/><stop offset=".45" stop-color="#24105e"/><stop offset="1" stop-color="#071f36"/></linearGradient>
+ <linearGradient id="c" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00f5ff"/><stop offset="1" stop-color="#2563eb"/></linearGradient>
+ <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff35d6"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe066"/><stop offset="1" stop-color="#ff7a00"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#38bdf8" stroke-opacity=".09"/></pattern>
 </defs>
-<rect width="1200" height="430" rx="28" fill="url(#bg)"/><rect width="1200" height="430" rx="28" fill="url(#grid)"/>
-<circle cx="925" cy="190" r="165" fill="none" stroke="#00e5ff" stroke-opacity=".18" stroke-width="2"/><circle cx="925" cy="190" r="125" fill="none" stroke="#d946ef" stroke-opacity=".18"/>
-<g font-family="Arial, sans-serif" fill="white">
-<text x="55" y="75" font-size="24" fill="#67e8f9">ARAVINTH1228 • WEB3 ENGINEERING</text>
-<text x="55" y="130" font-size="48" font-weight="800">BLOCKCHAIN</text><text x="55" y="178" font-size="48" font-weight="800" fill="url(#cyan)">WEB3 • SECURITY</text>
-<text x="58" y="215" font-size="19" fill="#cbd5e1">Smart Contracts • EVM • RWA • DeFi • Infrastructure</text>
-<rect x="55" y="250" width="385" height="112" rx="18" fill="#050816" fill-opacity=".72" stroke="#7c3aed"/>
-<text x="78" y="278" font-size="15" fill="#22d3ee">&gt; build secure smart contracts</text><text x="78" y="300" font-size="15" fill="#a78bfa">&gt; engineer EVM systems</text><text x="78" y="322" font-size="15" fill="#f472b6">&gt; tokenize real-world assets</text><text x="78" y="344" font-size="15" fill="#fbbf24">&gt; audit • test • deploy</text>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/><rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+<circle cx="905" cy="150" r="112" fill="none" stroke="#00e5ff" stroke-opacity=".16"/><circle cx="905" cy="150" r="78" fill="none" stroke="#d946ef" stroke-opacity=".16"/>
+<g font-family="Arial,sans-serif">
+ <text x="42" y="48" font-size="18" font-weight="700" fill="#67e8f9">ARAVINTH1228 • BLOCKCHAIN / WEB3 / SECURITY</text>
+ <text x="42" y="92" font-size="36" font-weight="900" fill="white">BUILD THE DECENTRALIZED</text>
+ <text x="42" y="130" font-size="36" font-weight="900" fill="url(#c)">FUTURE</text>
+ <text x="44" y="157" font-size="14" fill="#e9d5ff">Smart Contracts • EVM • RWA • DeFi • Nodes • AI Security</text>
+ <rect x="42" y="182" width="360" height="78" rx="14" fill="#050816" fill-opacity=".75" stroke="#a855f7"/>
+ <text x="62" y="207" font-size="12" fill="#22d3ee">&gt; build secure smart contracts</text>
+ <text x="62" y="226" font-size="12" fill="#f472b6">&gt; engineer EVM systems</text>
+ <text x="62" y="245" font-size="12" fill="#fbbf24">&gt; tokenize • audit • deploy</text>
 </g>
-<!-- network -->
-<g stroke="#38bdf8" stroke-width="3" opacity=".8" filter="url(#glow)"><path d="M700 180L820 105L955 165L1080 95"/><path d="M700 180L820 275L955 165L1080 270"/><path d="M820 105L820 275"/><path d="M955 165L955 315"/></g>
-<!-- cubes -->
-<g stroke="#fff" stroke-opacity=".45" stroke-width="2">
-<g><polygon points="675,155 715,132 755,155 715,178" fill="url(#cyan)"/><polygon points="675,155 715,178 715,220 675,197" fill="#075985"/><polygon points="755,155 715,178 715,220 755,197" fill="#1d4ed8"/><text x="687" y="205" fill="white" font-size="13">WEB3</text></g>
-<g><polygon points="795,78 840,52 885,78 840,104" fill="url(#pink)"/><polygon points="795,78 840,104 840,145 795,119" fill="#6b21a8"/><polygon points="885,78 840,104 840,145 885,119" fill="#9333ea"/><text x="808" y="112" fill="white" font-size="13">RWA</text></g>
-<g><polygon points="930,140 985,110 1040,140 985,170" fill="url(#gold)"/><polygon points="930,140 985,170 985,220 930,190" fill="#b45309"/><polygon points="1040,140 985,170 985,220 1040,190" fill="#f59e0b"/><text x="948" y="188" fill="white" font-size="14">DEFI</text></g>
-<g><polygon points="1045,250 1090,225 1135,250 1090,275" fill="url(#cyan)"/><polygon points="1045,250 1090,275 1090,318 1045,293" fill="#075985"/><polygon points="1135,250 1090,275 1090,318 1135,293" fill="#2563eb"/><text x="1058" y="285" fill="white" font-size="13">L2</text></g>
+<g stroke="#38bdf8" stroke-width="2" opacity=".85" filter="url(#glow)"><path d="M625 145L745 80L885 145L1030 82"/><path d="M625 145L745 215L885 145L1030 215"/><path d="M745 80V215"/><path d="M885 145V238"/></g>
+<g stroke="#fff" stroke-opacity=".45" stroke-width="1.5">
+ <g><polygon points="590,125 625,105 660,125 625,145" fill="url(#c)"/><polygon points="590,125 625,145 625,180 590,160" fill="#075985"/><polygon points="660,125 625,145 625,180 660,160" fill="#1d4ed8"/><text x="600" y="166" fill="white" font-size="11">WEB3</text></g>
+ <g><polygon points="710,60 745,40 780,60 745,80" fill="url(#p)"/><polygon points="710,60 745,80 745,115 710,95" fill="#6b21a8"/><polygon points="780,60 745,80 745,115 780,95" fill="#9333ea"/><text x="721" y="91" fill="white" font-size="11">RWA</text></g>
+ <g><polygon points="850,125 885,105 920,125 885,145" fill="url(#g)"/><polygon points="850,125 885,145 885,180 850,160" fill="#b45309"/><polygon points="920,125 885,145 885,180 920,160" fill="#f59e0b"/><text x="860" y="166" fill="white" font-size="11">DEFI</text></g>
+ <g><polygon points="995,198 1030,178 1065,198 1030,218" fill="url(#c)"/><polygon points="995,198 1030,218 1030,253 995,233" fill="#075985"/><polygon points="1065,198 1030,218 1030,253 1065,233" fill="#2563eb"/><text x="1012" y="235" fill="white" font-size="11">L2</text></g>
 </g>
-<!-- central Ethereum crystal -->
-<g filter="url(#glow)"><polygon points="875,135 925,55 975,135 925,165" fill="#b8f7ff" fill-opacity=".95" stroke="#fff" stroke-width="2"/><polygon points="875,135 925,165 925,270 875,205" fill="#2563eb"/><polygon points="975,135 925,165 925,270 975,205" fill="#7c3aed"/><polygon points="925,165 950,150 950,235 925,270" fill="#00e5ff" fill-opacity=".7"/></g>
-<rect x="805" y="300" width="250" height="62" rx="16" fill="#070b20" stroke="#00e5ff" stroke-width="2"/><text x="838" y="328" fill="#67e8f9" font-family="Arial" font-size="14">BLOCKCHAIN NODE</text><text x="838" y="349" fill="white" font-family="Arial" font-size="13">SECURE • SCALABLE • ON-CHAIN</text>
-<text x="1080" y="390" fill="#f0abfc" font-family="Arial" font-size="15">BUILD • LEARN • CREATE</text>
+<g filter="url(#glow)"><polygon points="850,95 905,48 960,95 905,122" fill="#dffcff" stroke="white"/><polygon points="850,95 905,122 905,208 850,154" fill="#2563eb"/><polygon points="960,95 905,122 905,208 960,154" fill="#7c3aed"/></g>
+<rect x="810" y="222" width="205" height="42" rx="12" fill="#070b20" stroke="#00e5ff"/>
+<text x="835" y="241" fill="#67e8f9" font-family="Arial" font-size="11">BLOCKCHAIN NODE</text><text x="835" y="255" fill="white" font-family="Arial" font-size="10">SECURE • SCALABLE • ON-CHAIN</text>
+<text x="1070" y="270" fill="#f0abfc" font-family="Arial" font-size="11">BUILD • LEARN • CREATE</text>
 </svg>
