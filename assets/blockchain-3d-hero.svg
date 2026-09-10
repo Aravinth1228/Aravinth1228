@@ -11,84 +11,86 @@
 </defs>
 <rect x="2" y="2" width="1196" height="296" rx="24" fill="url(#bg)" stroke="#00e5ff" stroke-width="1.5"/>
 <rect x="2" y="2" width="1196" height="296" rx="24" fill="url(#grid)"/>
-<ellipse cx="790" cy="145" rx="300" ry="170" fill="url(#halo)" opacity=".55"><animate attributeName="opacity" values=".35;.75;.35" dur="4s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="840" cy="145" rx="310" ry="170" fill="url(#halo)" opacity=".55"><animate attributeName="opacity" values=".35;.75;.35" dur="4s" repeatCount="indefinite"/></ellipse>
 
-<!-- clean left typography -->
+<!-- LEFT: clean typography with guaranteed separation -->
 <g font-family="Trebuchet MS,Arial,sans-serif">
  <text x="42" y="47" font-size="17" font-weight="700" letter-spacing="1" fill="#67e8f9">ARAVINTH1228</text>
  <text x="42" y="87" font-size="35" font-weight="900" fill="#ffffff">BUILD THE</text>
  <text x="42" y="126" font-size="35" font-weight="900" fill="url(#cyan)">DECENTRALIZED</text>
- <text x="42" y="164" font-size="35" font-weight="900" fill="url(#pink)">FUTURE</text>
- <text x="42" y="184" font-size="13" fill="#e9d5ff">Smart Contracts • EVM • RWA • DeFi • Nodes • AI Security</text>
+ <text x="42" y="165" font-size="35" font-weight="900" fill="url(#pink)">FUTURE</text>
+ <text x="42" y="188" font-size="13" fill="#e9d5ff">Smart Contracts • EVM • RWA • DeFi • Nodes • AI Security</text>
+ <rect x="42" y="207" width="300" height="43" rx="10" fill="#030516" fill-opacity=".8" stroke="#a855f7"/>
+ <text x="58" y="225" font-size="10.5" font-family="monospace" fill="#22d3ee">&gt; build • audit • deploy</text>
+ <text x="58" y="241" font-size="10.5" font-family="monospace" fill="#fbbf24">&gt; secure the on-chain future</text>
 </g>
 
-<!-- separated 3D blockchain network -->
-<g>
- <g fill="none" stroke="#38bdf8" stroke-width="2" opacity=".9" filter="url(#glow)">
-  <path d="M500 145 L595 85 L700 145 L810 85 L930 145"/>
-  <path d="M500 145 L595 205 L700 145 L810 205 L930 145"/>
-  <path d="M595 85V205 M810 85V205"/>
-  <path d="M500 145L700 145L930 145" stroke="#a855f7" stroke-opacity=".55"/>
-  <circle cx="500" cy="145" r="4" fill="#67e8f9"><animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/></circle>
-  <circle cx="700" cy="145" r="4" fill="#ff7adf"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
-  <circle cx="930" cy="145" r="4" fill="#5eead4"><animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/></circle>
- </g>
-
- <!-- WEB3 cube -->
- <g transform="translate(0 0)" filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0;0 7;0 0" dur="4s" repeatCount="indefinite"/>
-  <polygon points="465,135 500,115 535,135 500,155" fill="url(#cyan)" stroke="#fff" stroke-opacity=".65"/>
-  <polygon points="465,135 500,155 500,190 465,170" fill="#075985" stroke="#fff" stroke-opacity=".45"/>
-  <polygon points="535,135 500,155 500,190 535,170" fill="#1d4ed8" stroke="#fff" stroke-opacity=".45"/>
-  <text x="478" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">WEB3</text>
- </g>
-
- <!-- RWA cube -->
- <g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0;0 -7;0 0" dur="3.6s" repeatCount="indefinite"/>
-  <polygon points="560,70 595,50 630,70 595,90" fill="url(#pink)" stroke="#fff" stroke-opacity=".65"/>
-  <polygon points="560,70 595,90 595,125 560,105" fill="#6b21a8" stroke="#fff" stroke-opacity=".45"/>
-  <polygon points="630,70 595,90 595,125 630,105" fill="#9333ea" stroke="#fff" stroke-opacity=".45"/>
-  <text x="582" y="102" font-family="Arial" font-size="10" font-weight="700" fill="white">RWA</text>
- </g>
-
- <!-- central 3D EVM core -->
- <g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0;0 6;0 0" dur="4.2s" repeatCount="indefinite"/>
-  <polygon points="665,90 720,43 775,90 720,118" fill="#e9fdff" stroke="#fff"/>
-  <polygon points="665,90 720,118 720,205 665,149" fill="#2563eb"/>
-  <polygon points="775,90 720,118 720,205 775,149" fill="#7c3aed"/>
-  <polygon points="697,70 720,51 743,70 720,89" fill="none" stroke="#00e5ff" stroke-width="2"/>
-  <text x="701" y="143" font-family="Arial" font-size="12" font-weight="900" fill="white">EVM</text>
- </g>
-
- <!-- DeFi cube -->
- <g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0;0 9;0 0" dur="4.6s" repeatCount="indefinite"/>
-  <polygon points="775,135 810,115 845,135 810,155" fill="url(#orange)" stroke="#fff" stroke-opacity=".65"/>
-  <polygon points="775,135 810,155 810,190 775,170" fill="#b45309" stroke="#fff" stroke-opacity=".45"/>
-  <polygon points="845,135 810,155 810,190 845,170" fill="#f59e0b" stroke="#fff" stroke-opacity=".45"/>
-  <text x="793" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">DeFi</text>
- </g>
-
- <!-- L2 cube -->
- <g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 9;0 0;0 -8;0 0" dur="3.8s" repeatCount="indefinite"/>
-  <polygon points="895,135 930,115 965,135 930,155" fill="url(#green)" stroke="#fff" stroke-opacity=".65"/>
-  <polygon points="895,135 930,155 930,190 895,170" fill="#047857" stroke="#fff" stroke-opacity=".45"/>
-  <polygon points="965,135 930,155 930,190 965,170" fill="#10b981" stroke="#fff" stroke-opacity=".45"/>
-  <text x="920" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">L2</text>
- </g>
-
- <!-- rotating orbital effect around EVM -->
- <g fill="none" opacity=".35">
-  <ellipse cx="720" cy="125" rx="170" ry="55" stroke="#00e5ff" stroke-width="1.5" transform="rotate(-13 720 125)"><animateTransform attributeName="transform" type="rotate" from="-13 720 125" to="347 720 125" dur="8s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="720" cy="125" rx="170" ry="55" stroke="#d946ef" stroke-width="1.5" transform="rotate(62 720 125)"><animateTransform attributeName="transform" type="rotate" from="62 720 125" to="422 720 125" dur="10s" repeatCount="indefinite"/></ellipse>
- </g>
+<!-- RIGHT: isolated animated blockchain network -->
+<g fill="none" stroke="#38bdf8" stroke-width="2" opacity=".9" filter="url(#glow)">
+ <path d="M610 145 L700 82 L800 145 L900 82 L1000 145"/>
+ <path d="M610 145 L700 208 L800 145 L900 208 L1000 145"/>
+ <path d="M700 82V208 M900 82V208"/>
+ <path d="M610 145L800 145L1000 145" stroke="#a855f7" stroke-opacity=".55"/>
+ <circle cx="610" cy="145" r="4" fill="#67e8f9"><animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/></circle>
+ <circle cx="800" cy="145" r="4" fill="#ff7adf"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
+ <circle cx="1000" cy="145" r="4" fill="#5eead4"><animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- right-side blockchain slogan -->
+<!-- WEB3 -->
+<g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0;0 7;0 0" dur="4s" repeatCount="indefinite"/>
+ <polygon points="575,135 610,115 645,135 610,155" fill="url(#cyan)" stroke="#fff" stroke-opacity=".65"/>
+ <polygon points="575,135 610,155 610,190 575,170" fill="#075985" stroke="#fff" stroke-opacity=".45"/>
+ <polygon points="645,135 610,155 610,190 645,170" fill="#1d4ed8" stroke="#fff" stroke-opacity=".45"/>
+ <text x="588" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">WEB3</text>
+</g>
+
+<!-- RWA -->
+<g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0;0 -7;0 0" dur="3.6s" repeatCount="indefinite"/>
+ <polygon points="670,70 705,50 740,70 705,90" fill="url(#pink)" stroke="#fff" stroke-opacity=".65"/>
+ <polygon points="670,70 705,90 705,125 670,105" fill="#6b21a8" stroke="#fff" stroke-opacity=".45"/>
+ <polygon points="740,70 705,90 705,125 740,105" fill="#9333ea" stroke="#fff" stroke-opacity=".45"/>
+ <text x="692" y="102" font-family="Arial" font-size="10" font-weight="700" fill="white">RWA</text>
+</g>
+
+<!-- EVM core -->
+<g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0;0 6;0 0" dur="4.2s" repeatCount="indefinite"/>
+ <polygon points="775,90 830,43 885,90 830,118" fill="#e9fdff" stroke="#fff"/>
+ <polygon points="775,90 830,118 830,205 775,149" fill="#2563eb"/>
+ <polygon points="885,90 830,118 830,205 885,149" fill="#7c3aed"/>
+ <polygon points="807,70 830,51 853,70 830,89" fill="none" stroke="#00e5ff" stroke-width="2"/>
+ <text x="811" y="143" font-family="Arial" font-size="12" font-weight="900" fill="white">EVM</text>
+</g>
+
+<!-- DeFi -->
+<g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0;0 9;0 0" dur="4.6s" repeatCount="indefinite"/>
+ <polygon points="885,135 920,115 955,135 920,155" fill="url(#orange)" stroke="#fff" stroke-opacity=".65"/>
+ <polygon points="885,135 920,155 920,190 885,170" fill="#b45309" stroke="#fff" stroke-opacity=".45"/>
+ <polygon points="955,135 920,155 920,190 955,170" fill="#f59e0b" stroke="#fff" stroke-opacity=".45"/>
+ <text x="903" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">DeFi</text>
+</g>
+
+<!-- L2 -->
+<g filter="url(#glow)"><animateTransform attributeName="transform" type="translate" values="0 0;0 9;0 0;0 -8;0 0" dur="3.8s" repeatCount="indefinite"/>
+ <polygon points="975,135 1010,115 1045,135 1010,155" fill="url(#green)" stroke="#fff" stroke-opacity=".65"/>
+ <polygon points="975,135 1010,155 1010,190 975,170" fill="#047857" stroke="#fff" stroke-opacity=".45"/>
+ <polygon points="1045,135 1010,155 1010,190 1045,170" fill="#10b981" stroke="#fff" stroke-opacity=".45"/>
+ <text x="1000" y="177" font-family="Arial" font-size="10" font-weight="700" fill="white">L2</text>
+</g>
+
+<!-- orbital movement around EVM -->
+<g fill="none" opacity=".35">
+ <ellipse cx="830" cy="125" rx="175" ry="58" stroke="#00e5ff" stroke-width="1.5" transform="rotate(-13 830 125)"><animateTransform attributeName="transform" type="rotate" from="-13 830 125" to="347 830 125" dur="8s" repeatCount="indefinite"/></ellipse>
+ <ellipse cx="830" cy="125" rx="175" ry="58" stroke="#d946ef" stroke-width="1.5" transform="rotate(62 830 125)"><animateTransform attributeName="transform" type="rotate" from="62 830 125" to="422 830 125" dur="10s" repeatCount="indefinite"/></ellipse>
+</g>
+</g>
+
+<!-- right slogan -->
 <g font-family="Trebuchet MS,Arial,sans-serif" font-style="italic" font-size="15" font-weight="700">
- <text x="1055" y="55" fill="#ff7adf">Code</text>
- <text x="1055" y="75" fill="#ff7adf">Deploy</text>
- <text x="1055" y="95" fill="#67e8f9">Secure</text>
- <text x="1055" y="115" fill="#67e8f9">Decentralize</text>
- <text x="1055" y="135" fill="#67e8f9">Repeat...</text>
+ <text x="1080" y="62" fill="#ff7adf">Code</text>
+ <text x="1080" y="82" fill="#ff7adf">Deploy</text>
+ <text x="1080" y="102" fill="#67e8f9">Secure</text>
+ <text x="1080" y="122" fill="#67e8f9">Decentralize</text>
+ <text x="1080" y="142" fill="#67e8f9">Repeat...</text>
 </g>
-<text x="1055" y="270" font-family="Trebuchet MS,Arial,sans-serif" font-size="10" fill="#f0abfc">BUILD • LEARN • CREATE</text>
+<text x="1080" y="270" font-family="Trebuchet MS,Arial,sans-serif" font-size="10" fill="#f0abfc">BUILD • LEARN • CREATE</text>
 </svg>
