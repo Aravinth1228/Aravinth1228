@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/blockchain-3d-hero.svg" alt="3D Blockchain Web3 Hero" width="100%"/>
+<img src="./assets/neon-blockchain-background.svg" alt="Colorful 3D Blockchain Portfolio" width="100%"/>
 
 # 🌌 ARAVINTHAN SELVAM
 ### 🔮 Blockchain Developer • Web3 Engineer • Smart Contract Security
@@ -17,7 +17,7 @@
 
 ## 🧬 ABOUT ME
 
-> **Blockchain is not just a contract. It's an entire system.**
+> 🌈 **Blockchain is not just a contract. It's an entire system.**
 
 I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle — from smart-contract architecture and security to EVM execution, nodes, RPC, deployment and decentralized applications.
 
@@ -87,8 +87,6 @@ I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle
 
 <img src="./assets/web3-3d.svg" alt="3D Web3 Toolkit" width="100%"/>
 
-**I don't only build Web3 logic — I also explore immersive 3D interfaces for blockchain products.**
-
 <div align="center">
 
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
@@ -110,22 +108,7 @@ I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle
 <img src="./assets/security-3d.svg" alt="3D Smart Contract Security" width="100%"/>
 
 ```text
-                    🔐 SECURITY PIPELINE
-
-     CODE ──► STATIC ANALYSIS ──► UNIT TESTS
-       │              │                 │
-       ▼              ▼                 ▼
-   Solidity       Slither          Foundry
-       │              │                 │
-       └──────────────┼─────────────────┘
-                      ▼
-                  FUZZ TESTING
-                      │
-                      ▼
-               MANUAL REVIEW
-                      │
-                      ▼
-                 🚀 DEPLOY
+CODE → STATIC ANALYSIS → UNIT TESTS → FUZZING → MANUAL REVIEW → 🚀 DEPLOY
 ```
 
 **Security focus:** `Reentrancy` · `Access Control` · `Authorization` · `Oracle Risks` · `Signature Validation` · `Precision` · `Business Logic` · `Upgradeable Contracts` · `DoS`
@@ -152,10 +135,10 @@ Real-world asset tokenization, on-chain ownership and blockchain-based investmen
 Staking, token systems, presale contracts, transfers and protocol-level business logic.
 
 ### 🤖 AI × Smart Contract Security
-Exploring AI-assisted vulnerability detection, contract analysis and automated auditing workflows.
+AI-assisted vulnerability detection, contract analysis and automated auditing workflows.
 
 ### 🌉 L1 / L2 & Interoperability
-Learning how execution layers, bridges, RPC infrastructure and cross-chain systems fit together.
+Execution layers, bridges, RPC infrastructure and cross-chain systems.
 
 ## 🚀 FEATURED BLOCKCHAIN WORK
 
@@ -171,23 +154,15 @@ Learning how execution layers, bridges, RPC infrastructure and cross-chain syste
 ## 🧭 MY BLOCKCHAIN ROADMAP
 
 ```text
-                 🧑‍💻 BLOCKCHAIN DEVELOPER
-                           │
-                    Solidity → Smart Contracts
-                           ↓
-                      ⚡ EVM Internals
-                           ↓
-                   🧪 Foundry + Fuzzing
-                           ↓
-                     🛡️ Security / Audit
-                           ↓
-                       🏦 DeFi + RWA
-                           ↓
-                    🧱 Geth + Besu + RPC
-                           ↓
-                      🌉 L1 / L2 Systems
-                           ↓
-                    🤖 AI × Web3 Security
+Solidity → Smart Contracts → EVM → Foundry → Security / Audit
+                     ↓
+               DeFi + RWA
+                     ↓
+             Geth + Besu + RPC
+                     ↓
+               L1 / L2 Systems
+                     ↓
+             🤖 AI × Web3 Security
 ```
 
 ## 📊 GITHUB ACTIVITY
@@ -198,16 +173,6 @@ Learning how execution layers, bridges, RPC infrastructure and cross-chain syste
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Aravinth1228&hide_border=true&background=0D1117&ring=F472B6&fire=F59E0B&currStreakLabel=22D3EE" height="170"/>
 
 </div>
-
-## ⚡ CURRENT FOCUS
-
-<div align="center">
-
-🟣 **SMART CONTRACTS** &nbsp; 🔵 **EVM** &nbsp; 🟢 **RWA** &nbsp; 🟠 **DeFi** &nbsp; 🔴 **SECURITY** &nbsp; 🧊 **3D WEB3** &nbsp; 🟦 **BLOCKCHAIN INFRA**
-
-</div>
-
----
 
 <div align="center">
 
