@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/blockchain-3d-hero.svg" alt="Colorful 3D Blockchain Portfolio" width="100%"/>
+<img src="./assets/blockchain-3d-hero.webp" alt="Enhanced 3D Blockchain Portfolio" width="100%"/>
 
 # 🌌 ARAVINTHAN SELVAM
 ### 🔮 Blockchain Developer • Web3 Engineer • Smart Contract Security
