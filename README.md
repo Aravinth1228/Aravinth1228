@@ -85,6 +85,8 @@ I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle
 
 ## 🧊 3D BLOCKCHAIN TOOLKIT
 
+<img src="./assets/web3-3d.svg" alt="3D Web3 Toolkit" width="100%"/>
+
 **I don't only build Web3 logic — I also explore immersive 3D interfaces for blockchain products.**
 
 <div align="center">
@@ -97,30 +99,15 @@ I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle
 
 </div>
 
+### 🔮 Visual Web3 Flow
+
 ```text
-        🧊 3D UI
-           │
-    ┌──────┴──────┐
-    ▼             ▼
- Three.js    React Three Fiber
-    │             │
-    └──────┬──────┘
-           ▼
-     🌐 Web3 Layer
-           │
-   Wallet • Viem • Ethers
-           │
-           ▼
-      🔐 Smart Contract
-           │
-           ▼
-        ⚡ EVM
-           │
-           ▼
-      ⛓️ Blockchain
+3D Interface → Wallet → Viem / Ethers → Smart Contract → EVM → RPC / Node → Blockchain
 ```
 
 ## 🛡️ SMART CONTRACT SECURITY
+
+<img src="./assets/security-3d.svg" alt="3D Smart Contract Security" width="100%"/>
 
 ```text
                     🔐 SECURITY PIPELINE
@@ -144,6 +131,8 @@ I'm a **Blockchain / Web3 Developer** focused on the complete on-chain lifecycle
 **Security focus:** `Reentrancy` · `Access Control` · `Authorization` · `Oracle Risks` · `Signature Validation` · `Precision` · `Business Logic` · `Upgradeable Contracts` · `DoS`
 
 ## 🌍 BLOCKCHAIN INFRASTRUCTURE
+
+<img src="./assets/infrastructure-3d.svg" alt="3D Blockchain Infrastructure" width="100%"/>
 
 **Node → RPC → EVM → Transaction Pool → Consensus → Block → Explorer**
 
@@ -184,25 +173,21 @@ Learning how execution layers, bridges, RPC infrastructure and cross-chain syste
 ```text
                  🧑‍💻 BLOCKCHAIN DEVELOPER
                            │
-                    ┌──────▼──────┐
-                    │   Solidity  │
-                    └──────┬──────┘
-                           ▼
-                  🔐 Smart Contracts
-                           ▼
-                    ⚡ EVM Internals
-                           ▼
-                 🧪 Foundry + Fuzzing
-                           ▼
-                  🛡️ Security / Audit
-                           ▼
-                    🏦 DeFi + RWA
-                           ▼
-                  🧱 Geth + Besu + RPC
-                           ▼
-                    🌉 L1 / L2 Systems
-                           ▼
-                  🤖 AI × Web3 Security
+                    Solidity → Smart Contracts
+                           ↓
+                      ⚡ EVM Internals
+                           ↓
+                   🧪 Foundry + Fuzzing
+                           ↓
+                     🛡️ Security / Audit
+                           ↓
+                       🏦 DeFi + RWA
+                           ↓
+                    🧱 Geth + Besu + RPC
+                           ↓
+                      🌉 L1 / L2 Systems
+                           ↓
+                    🤖 AI × Web3 Security
 ```
 
 ## 📊 GITHUB ACTIVITY
