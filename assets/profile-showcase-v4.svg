@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1500" viewBox="0 0 1100 1500">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050811"/><stop offset=".55" stop-color="#091525"/><stop offset="1" stop-color="#03060c"/></linearGradient>
+ <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#130b4d"/><stop offset=".5" stop-color="#10265c"/><stop offset="1" stop-color="#063b48"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#21e9ff"/><stop offset="1" stop-color="#6a6cff"/></linearGradient>
+ <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#23e6ff"/><stop offset=".5" stop-color="#ff39d6"/><stop offset="1" stop-color="#a86cff"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#21425d" stroke-width="1" opacity=".45"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1100" height="1500" rx="24" fill="url(#bg)"/>
+<rect x="2" y="2" width="1096" height="1496" rx="24" fill="none" stroke="#294157" stroke-width="2"/>
+
+<!-- HERO -->
+<rect x="36" y="36" width="1028" height="250" rx="22" fill="url(#hero)" stroke="#25ddff" stroke-width="2"/>
+<rect x="36" y="36" width="1028" height="250" rx="22" fill="url(#grid)"/>
+<g font-family="Arial,sans-serif">
+ <text x="70" y="78" fill="#31eaff" font-size="17" font-weight="700" letter-spacing="2">ARAVINTH1228 • BLOCKCHAIN / WEB3 / SECURITY</text>
+ <text x="70" y="126" fill="#ffffff" font-size="38" font-weight="900">BUILD THE</text>
+ <text x="70" y="172" fill="#ffffff" font-size="38" font-weight="900">DECENTRALIZED</text>
+ <text x="70" y="218" fill="url(#pink)" font-size="42" font-weight="900">FUTURE</text>
+ <text x="72" y="251" fill="#dcecff" font-size="13">Smart Contracts • EVM • RWA • DeFi • Nodes • AI Security</text>
+</g>
+<!-- isolated 3D chain -->
+<g filter="url(#glow)" stroke="#d9fbff" stroke-width="1.4">
+ <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0;0 7;0 0" dur="4s" repeatCount="indefinite"/><polygon points="610,120 650,97 690,120 650,143" fill="#d94cff"/><polygon points="610,120 650,143 650,183 610,160" fill="#7620c8"/><polygon points="690,120 650,143 650,183 690,160" fill="#a42ee8"/></g>
+ <g><animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0;0 -7;0 0" dur="3.5s" repeatCount="indefinite"/><polygon points="700,98 740,75 780,98 740,121" fill="#22dfff"/><polygon points="700,98 740,121 740,161 700,138" fill="#0877cf"/><polygon points="780,98 740,121 740,161 780,138" fill="#16a9e9"/></g>
+ <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0;0 7;0 0" dur="4.2s" repeatCount="indefinite"/><polygon points="790,120 830,97 870,120 830,143" fill="#ffb23c"/><polygon points="790,120 830,143 830,183 790,160" fill="#d86b00"/><polygon points="870,120 830,143 830,183 870,160" fill="#ff940e"/></g>
+ <g><animateTransform attributeName="transform" type="translate" values="0 0;0 7;0 0;0 -7;0 0" dur="3.8s" repeatCount="indefinite"/><polygon points="880,98 920,75 960,98 920,121" fill="#38e8c5"/><polygon points="880,98 920,121 920,161 880,138" fill="#078c84"/><polygon points="960,98 920,121 920,161 960,138" fill="#09c9ad"/></g>
+</g>
+<g font-family="Arial" font-size="14" font-weight="700" font-style="italic"><text x="882" y="210" fill="#ff8de8">Code • Deploy • Secure</text><text x="914" y="233" fill="#5ceaff">Decentralize • Repeat</text></g>
+
+<!-- IDENTITY -->
+<text x="550" y="338" text-anchor="middle" fill="#f2f7ff" font-family="Arial" font-size="35" font-weight="900">ARAVINTHAN <tspan fill="url(#cyan)">SELVAM</tspan></text>
+<text x="550" y="370" text-anchor="middle" fill="#dce9f8" font-family="Arial" font-size="17">Blockchain Developer • Web3 Engineer • Smart Contract Security</text>
+<text x="550" y="398" text-anchor="middle" fill="#9fb4ca" font-family="Arial" font-size="14">Building secure, scalable and real-world decentralized systems.</text>
+<g font-family="Arial" font-size="12" font-weight="700">
+ <rect x="196" y="420" width="150" height="36" rx="8" fill="#7135e8"/><text x="271" y="443" text-anchor="middle" fill="white">BLOCKCHAIN</text>
+ <rect x="356" y="420" width="120" height="36" rx="8" fill="#087fca"/><text x="416" y="443" text-anchor="middle" fill="white">WEB3</text>
+ <rect x="486" y="420" width="145" height="36" rx="8" fill="#c92b67"/><text x="558" y="443" text-anchor="middle" fill="white">SECURITY</text>
+ <rect x="641" y="420" width="95" height="36" rx="8" fill="#d97706"/><text x="688" y="443" text-anchor="middle" fill="white">RWA</text>
+ <rect x="746" y="420" width="92" height="36" rx="8" fill="#168d49"/><text x="792" y="443" text-anchor="middle" fill="white">DEFI</text>
+</g>
+
+<!-- ABOUT -->
+<line x1="36" y1="486" x2="1064" y2="486" stroke="#3d556b"/>
+<text x="50" y="528" fill="#f3f7ff" font-family="Arial" font-size="25" font-weight="900">ABOUT ME</text>
+<rect x="36" y="548" width="1028" height="250" rx="16" fill="#07111c" stroke="#2b4155"/>
+<g font-family="Arial" fill="#edf5ff">
+ <text x="62" y="590" font-size="16">I work across the full on-chain lifecycle — from smart contract design</text>
+ <text x="62" y="618" font-size="16">and security to EVM execution, RPC, nodes, deployment and DApps.</text>
+ <text x="62" y="658" font-size="14" fill="#b9c9da">SMART CONTRACTS</text><text x="300" y="658" font-size="14" fill="#b9c9da">DAPP DEVELOPMENT</text><text x="540" y="658" font-size="14" fill="#b9c9da">SECURITY &amp; AUDITING</text>
+ <text x="62" y="696" font-size="14" fill="#b9c9da">RWA &amp; TOKENIZATION</text><text x="300" y="696" font-size="14" fill="#b9c9da">LAYER 1 / LAYER 2</text><text x="540" y="696" font-size="14" fill="#b9c9da">EVM INFRASTRUCTURE</text>
+</g>
+<!-- architecture -->
+<g font-family="Arial" text-anchor="middle" font-size="11">
+ <rect x="780" y="575" width="220" height="44" rx="8" fill="#10213b" stroke="#5687ff"/><text x="890" y="602" fill="white">USER / DAPP</text>
+ <path d="M890 619V635" stroke="#9db8df"/>
+ <rect x="780" y="637" width="220" height="44" rx="8" fill="#170d2d" stroke="#c14cff"/><text x="890" y="664" fill="white">SMART CONTRACT • SOLIDITY</text>
+ <path d="M890 681V697" stroke="#9db8df"/>
+ <rect x="780" y="699" width="220" height="44" rx="8" fill="#0b2230" stroke="#20dfff"/><text x="890" y="726" fill="white">EVM • RPC • NODE</text>
+ <path d="M890 743V759" stroke="#9db8df"/>
+ <rect x="780" y="761" width="220" height="24" rx="6" fill="#111f37" stroke="#395b80"/><text x="890" y="778" fill="white">BLOCKCHAIN NETWORK</text>
+</g>
+
+<!-- SKILLS -->
+<line x1="36" y1="828" x2="1064" y2="828" stroke="#3d556b"/>
+<text x="50" y="870" fill="#f3f7ff" font-family="Arial" font-size="25" font-weight="900">CORE BLOCKCHAIN SKILLS</text>
+<rect x="36" y="890" width="1028" height="220" rx="16" fill="#07111c" stroke="#2b4155"/>
+<g font-family="Arial" font-size="13">
+ <text x="62" y="924" fill="#31eaff" font-weight="700">SMART CONTRACTS</text><text x="250" y="924" fill="#e3edf8">Solidity • OpenZeppelin • ERC-20 • ERC-721 • ERC-1155</text>
+ <text x="62" y="960" fill="#31eaff" font-weight="700">EVM</text><text x="250" y="960" fill="#e3edf8">ABI • Gas • Storage • Events • Logs • Transactions</text>
+ <text x="62" y="996" fill="#31eaff" font-weight="700">NETWORKS</text><text x="250" y="996" fill="#e3edf8">Ethereum • BNB • Polygon • Base • Arbitrum • EVM Chains</text>
+ <text x="62" y="1032" fill="#31eaff" font-weight="700">RWA / DEFI</text><text x="250" y="1032" fill="#e3edf8">Tokenization • Real Estate • Staking • Presale</text>
+ <text x="62" y="1068" fill="#31eaff" font-weight="700">SECURITY</text><text x="250" y="1068" fill="#e3edf8">Slither • Foundry • Fuzzing • Reentrancy • Access Control</text>
+</g>
+
+<!-- PROJECTS -->
+<line x1="36" y1="1140" x2="1064" y2="1140" stroke="#3d556b"/>
+<text x="50" y="1182" fill="#f3f7ff" font-family="Arial" font-size="25" font-weight="900">FEATURED BLOCKCHAIN WORK</text>
+<g font-family="Arial">
+ <rect x="36" y="1202" width="320" height="115" rx="12" fill="#0a1623" stroke="#7d55ff"/><text x="58" y="1230" fill="#b88cff" font-size="15" font-weight="700">RENTVERSE</text><text x="58" y="1256" fill="#dce8f5" font-size="12">RWA / Real Estate Investment</text><text x="58" y="1279" fill="#8fa7bd" font-size="11">Tokenization • Ownership • On-chain logic</text>
+ <rect x="390" y="1202" width="320" height="115" rx="12" fill="#0a1623" stroke="#27ddff"/><text x="412" y="1230" fill="#4fe8ff" font-size="15" font-weight="700">AI SMART AUDITOR</text><text x="412" y="1256" fill="#dce8f5" font-size="12">AI × Smart Contract Security</text><text x="412" y="1279" fill="#8fa7bd" font-size="11">Slither • Foundry • AI findings • Reports</text>
+ <rect x="744" y="1202" width="320" height="115" rx="12" fill="#0a1623" stroke="#ff43d8"/><text x="766" y="1230" fill="#ff75e4" font-size="15" font-weight="700">BLOCKCHAIN DAPPS</text><text x="766" y="1256" fill="#dce8f5" font-size="12">Web3 Applications &amp; Protocols</text><text x="766" y="1279" fill="#8fa7bd" font-size="11">React • Solidity • EVM • Wallets • RPC</text>
+</g>
+
+<!-- FOOTER -->
+<rect x="36" y="1350" width="1028" height="105" rx="16" fill="#08131f" stroke="#2b4155"/>
+<text x="550" y="1387" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="18" font-weight="800">BUILD • DEPLOY • SECURE • DECENTRALIZE</text>
+<text x="550" y="1417" text-anchor="middle" fill="url(#cyan)" font-family="Arial" font-size="13">Blockchain / Web3 / Smart Contracts / RWA / DeFi</text>
+<text x="550" y="1442" text-anchor="middle" fill="#718ba3" font-family="Arial" font-size="10">ARAVINTH1228</text>
+</svg>
